@@ -1,0 +1,127 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/static/pic.jpg');
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    
+}
+nav{
+    position:fixed;
+    display:flex;
+    justify-content: space-between;
+    top:0;
+    left:0;
+    width:100%;
+    height:80px;
+    padding:20px 60px;
+    background:transparent;
+    backdrop-filter: blur(30px);
+    align-items: center;
+    color:white;
+    box-shadow: 0 0 20px black;
+}
+.icons{
+    justify-content: space-between;
+    width:120px;
+}
+.plot{
+    margin-left: 40px;
+}
+.logo{
+    color:white;
+    font-size: 45px;
+    font-weight: bolder;
+    text-align:center;
+}
+.container {
+    margin-top: 200px;
+    margin-left: 550px;
+    height:450px;
+    max-width: 400px;
+    padding:20px 30px;
+    border-radius: 20px;
+    align-items: center;
+    background:transparent;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 20px black;
+
+}
+.container h1{
+    color:white;
+    text-align:center;
+    font-size: 40px;
+}
+.container p{
+    font-size: 25px;
+    color:white;
+    margin-left: 70px;
+    margin-top:50px;
+}
+.in{
+    position:relative;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.in input{
+    border-radius: 10px;
+    font-size: 20px;
+    height:30px;
+    width:300px;
+}
+.in button{
+    margin-top:50px;
+    margin-left: 100px;
+    height:45px;
+    width:90px;
+    font-size: 20px;
+    background-color: rgb(16, 16, 224);
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    color:white;
+    box-shadow: 0 0 20px black;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.home{
+    font-size: 30px;
+    color:white;
+}
+.plot{
+    color:white;
+    margin-top:10px;
+    font-size: 30px;
+}
+.image-container{
+    margin-top: 30px;
+    width:500px;
+    margin-left: 500px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.image-container img{
+    margin-top: 120px;
+    height:500px;
+    width:600px;
+    box-shadow: 0 0 20px black;
+}
+.text_{
+    color:white;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 150px;
+    margin-left: 670px;
+}
+.spc{
+    margin-left: 300px;
+    margin-top: 120px;
+    width:1000px;
+    height:350px;
+    box-shadow: 0 0 20px black;
+}

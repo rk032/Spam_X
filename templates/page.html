@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ML_Lab_Test</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <nav>
+        <label class="logo">Spam_X</label>
+        <div class="icons">
+            <a href="/"><ion-icon name="home" class="home"></ion-icon></a>
+            <a href="/plot"><ion-icon name="bar-chart" class="plot"></ion-icon></a>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Predictor</h1>
+        <form method="POST" action="/calculate" class="in">
+            <input type="text" id="input_text" name="input_text" placeholder="Type your message here..." required><br>
+            <button type="submit">Predict</button>
+        </form>
+        {% if result %}
+        <p>The Message is a {{ result }}.</p>
+        {% endif %}
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
